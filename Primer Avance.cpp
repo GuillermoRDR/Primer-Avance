@@ -18,7 +18,7 @@ int main()
 
     cout << "\t ---MENU DE OPCIONES---" << endl;
     cout << "1.-Alta" << endl;
-    cout << "2.-Modificacion de ítem" << endl;
+    cout << "2.-Modificacion de Ã­tem" << endl;
     cout << "3.-Baja" << endl;
     cout << "4.-Lista" << endl;
     cout << "5.-Limpiar Pantalla" << endl;
@@ -39,8 +39,8 @@ int main()
         cout << "Ingrese plataforma(s) en la(s) que se encuentra disponible" << endl;
         cin >> consola;
 
-        //Regresar al menú
-        cout << "¿Desea regresar al menu? \n-Ingrese 1 para volver \n-Ingrese 2 para salir" << endl;
+        //Regresar al menÃº
+        cout << "Â¿Desea regresar al menu? \n-Ingrese 1 para volver \n-Ingrese 2 para salir" << endl;
         cin >> desicion;
         if (desicion == 1)
         {
@@ -48,7 +48,7 @@ int main()
             return main();
         }
         break;
-    case 2: //Modificación de ítem 
+    case 2: //ModificaciÃ³n de Ã­tem 
         break;
 
     case 3: //Baja
